@@ -1,6 +1,5 @@
-def arr_sort(arr)
+def bubble_sort(arr)
   len = arr.length - 1
-  unsorted = true
   while len
     unsorted = false
     i = 0
@@ -12,6 +11,6 @@ def arr_sort(arr)
     end
     break if unsorted == false end
   arr
-    end
+end
 
-puts arr_sort([4, 3, 78, 2, 0, 2])
+puts bubble_sort([4, 3, 78, 2, 0, 2])
