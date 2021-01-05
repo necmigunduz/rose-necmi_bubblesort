@@ -3,7 +3,7 @@ def bubble_sort(arr)
   while len
     unsorted = false
     i = 0
-    for i in 0...len
+    (0...len).each do |i|
       if arr[i] > arr[i + 1]
         arr[i + 1], arr[i] = arr[i], arr[i + 1]
         unsorted = true
