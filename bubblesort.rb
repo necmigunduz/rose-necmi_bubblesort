@@ -2,7 +2,6 @@ def bubble_sort(arr)
   len = arr.length - 1
   while len
     unsorted = false
-    i = 0
     (0...len).each do |i|
       if arr[i] > arr[i + 1]
         arr[i + 1], arr[i] = arr[i], arr[i + 1]
