@@ -13,23 +13,17 @@ This is the first project of Ruby created by using Ruby, Linters, and VS Code.
 To get a local copy up and running, follow these simple steps provided below: 
 
 1. Clone the repository
-`git clone https://github.com/necmigunduz/rose-necmi_bubblesort.git`
+'git clone https://github.com/necmigunduz/rose-necmi_bubblesort.git'
 
 2. Change directory
-`cd rose-necmi_bubblesort`
+'cd rose-necmi_bubblesort'
 
 3. Run the program
-`ruby bubblesort.rb`
+'ruby bubblesort.rb'
 
 ### Prerequisites
 
 A machine with a working and up to date text editor and the latest version of Ruby.
-
-### Setup
-
-- Clone the repository to your folder of choice using Git (or just download all the files)
-- Open bubblesort.rb file,
-- Run the file by using ruby command.
 
 ## Authors
 
