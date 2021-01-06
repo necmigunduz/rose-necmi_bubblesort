@@ -16,7 +16,7 @@ end
 puts bubble_sort([4, 3, 78, 2, 0, 2])
 
 def bubble_sort_by(arr)
-  raise "No block detected!" unless block_given?
+  raise 'No block detected!' unless block_given?
 
   len = arr.length - 1
   while len
