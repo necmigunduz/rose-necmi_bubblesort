@@ -55,4 +55,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](/home/necmi/Ruby/rose-necmi_bubblesort/mit_license.md) licensed.
+This project is [MIT](mit_license.md) licensed.
