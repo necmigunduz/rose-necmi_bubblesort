@@ -15,9 +15,7 @@ end
 
 puts bubble_sort([4, 3, 78, 2, 0, 2])
 
-def bubble_sort_by(arr)
-  raise 'No block detected!' unless block_given?
-
+def bubble_sort_by(arr=["hello","hey","hi"])
   len = arr.length - 1
   while len
     unsorted = false
@@ -25,6 +23,8 @@ def bubble_sort_by(arr)
       if yield(arr[i], arr[i + 1]).to_i >= 0
         arr[i + 1], arr[i] = arr[i], arr[i + 1]
         unsorted = true
+      else
+        raise LocalJumpError unless block_given?
       end
     end
     break unless unsorted
