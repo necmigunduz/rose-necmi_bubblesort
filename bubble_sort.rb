@@ -8,7 +8,7 @@ def bubble_sort(arr)
         unsorted = true
       end
     end
-    break if !unsorted
+    break unless unsorted
   end
   arr
 end
@@ -17,6 +17,7 @@ puts bubble_sort([4, 3, 78, 2, 0, 2])
 
 def bubble_sort_by(arr)
   raise "No block detected!" unless block_given?
+
   len = arr.length - 1
   while len
     unsorted = false
@@ -26,13 +27,12 @@ def bubble_sort_by(arr)
         unsorted = true
       end
     end
-    break if !unsorted
+    break unless unsorted
   end
   puts arr
 end
 
-
-bubble = bubble_sort_by (%w[hello hey hi]) do |left, right|
+bubble = bubble_sort_by(%w[hello hey hi]) do |left, right|
   left.length - right.length
 end
 
