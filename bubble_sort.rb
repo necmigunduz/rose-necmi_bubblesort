@@ -15,7 +15,7 @@ end
 
 puts bubble_sort([4, 3, 78, 2, 0, 2])
 
-def bubble_sort_by(arr=["hello","hey","hi"])
+def bubble_sort_by(arr = %w[hello hey hi])
   len = arr.length - 1
   while len
     unsorted = false
