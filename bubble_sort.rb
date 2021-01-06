@@ -8,7 +8,8 @@ def bubble_sort(arr)
         unsorted = true
       end
     end
-    break if unsorted == false end
+    break if !unsorted
+  end
   arr
 end
 

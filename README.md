@@ -2,7 +2,7 @@
 
 # Bubble - Sort Project
 
-> We created a Bubble Sort Algorithm 
+> We created a Bubble Sort Algorithm. This algorithm sorts the elements of the array given from small to larg by comparing pairs starting from beginning.  
 
 This is the first project of Ruby created by using Ruby, Linters, and VS Code.
 ## Built With
@@ -10,15 +10,20 @@ This is the first project of Ruby created by using Ruby, Linters, and VS Code.
 - Ruby
 
 ## Getting Started
+To get a local copy up and running, follow these simple steps provided below: 
 
-To understand the problem of sorting arrays  
-To plan steps for creating an algorithm
-To create pseudocoding
-To create algorithm of bubblesort 
+1. Clone the repository
+'git clone https://github.com/necmigunduz/rose-necmi_bubblesort.git'
+
+2. Change directory
+'cd rose-necmi_bubblesort'
+
+3. Run the program
+'ruby bubblesort.rb'
 
 ### Prerequisites
 
-A machine with a working and up to date text editor.
+A machine with a working and up to date text editor and the latest version of Ruby.
 
 ### Setup
 
@@ -44,7 +49,7 @@ A machine with a working and up to date text editor.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/necmigunduz/rose-necmi_bubblesort/issues).
 
 ## Show your support
 
@@ -56,4 +61,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](/home/necmi/Ruby/rose-necmi_bubblesort/mit_license.md) licensed.
