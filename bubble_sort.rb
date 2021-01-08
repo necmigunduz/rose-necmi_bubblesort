@@ -29,11 +29,11 @@ def bubble_sort_by(arr = %w[hello hey hi])
     end
     break unless unsorted
   end
-  puts arr
+  arr
 end
 
 bubble = bubble_sort_by(%w[hello hey hi]) do |left, right|
   left.length - right.length
 end
 
-bubble
+p bubble
